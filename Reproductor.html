@@ -1,0 +1,87 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+      
+        <title>Reproductor</title>
+        <script src="https://kit.fontawesome.com/2bb18d0c79.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.audioControls.min.js"></script>
+        <script type="text/javascript" src="js/funciones.js"></script>
+
+    </head>
+    <body>
+
+        <div class="container">
+            <section class="row">
+                <aside class="col-12 col-md-12 col-lg-6">
+            <div class="row justify-content-between">
+                <div class="col-auto botoncabecera">
+                    <div class="botones"><i class="fa-solid fa-circle-arrow-left"></i></div>
+                </div>
+
+
+                <div class="col-auto botoncabecera d-block d-lg-none d-sm-block d-md-block d-lg-none">Reproduciendo ahora</div>
+                <div class="col-auto botoncabecera d-none d-lg-block d-sm-none d-md-none">Reproduciendoce</div>
+
+                <div class="col-auto botoncabecera">
+                    <div class="botones"><i class="fa-solid fa-bars-staggered"></i></div>
+                </div>
+
+                <div class="row text-center">
+                    <div class="col">
+                        <img src="img/roo.jpg" width="250px" height="250px" class="rounded-circle">
+                    </div>
+                </div>
+
+                
+
+                <div class="row justify-content-between">
+            <center>
+                <span class="col-3 nombremp3"></span><br>
+                <span class="col-3 text-end" data-attr="timer"></span>
+            </center>
+            </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <i class="fa-solid fa-circle-arrow-left"></i>
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar updateProgress"></div>
+            </div>
+
+            </aside>
+            <aside class="col-lg-6 waos">
+                <h1><center>Lista De Reproduccion</center></h1>
+               <ul class="list-group playlist">
+
+          <li class="list-group-item" data-src="music/LP - Lost On You (Live).mp3"><a href="#">LP - Lost On You</a></li>
+
+          <li class="list-group-item" data-src="music/Amy Winehouse - Back To Black.mp3"><a href="#">DAmy Winehouse - Back To Black</a></li>
+
+          <li class="list-group-item" data-src="music/LAGOS & Danny Ocean - Mónaco (Video Oficial).mp3"><a href="#">LAGOS & Danny Ocean - Mónaco</a></li>
+
+          <li class="list-group-item" data-src="music/A Mí.mp3"><a href="#">A Mí</a></li>
+
+          <li class="list-group-item" data-src="music/León Larregui - Locos (Video Oficial).mp3"><a href="#">León Larregui - Locos</a></li>
+
+        </ul>
+            </aside>
+        </section>
+            </div>
+        
+        </div>
+
+
+        
+    </body>
+    </html>
